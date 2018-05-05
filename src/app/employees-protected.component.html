@@ -1,0 +1,22 @@
+<div class="panel-body">
+  <h1>Employees<span style="color: #af0a13"><b>(Protected)</b></span>(list of {{employeesData.length}} )</h1>
+  <h4>Fetched from the <span style="color: #af0a13;background-color: rgba(214, 133, 122, 0.397)"><b>/employees</b></span> resource </h4>
+  <table class="table table-striped" id="example">
+    <thead class="thead-dark">
+      <tr>
+        <th class="hidden">Id</th>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>City</th>
+      </tr>
+    </thead>
+    <tbody id="table-body">
+      <tr *ngFor="let c of employeesData" (click)="selectRow(c)">
+        <td class="hidden"></td>
+        <td>{{c.FirstName}}</td>
+        <td>{{c.LastName}}</td>
+        <td>{{c.HireDate | date:"longDate"}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
