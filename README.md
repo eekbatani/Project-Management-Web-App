@@ -1,4 +1,6 @@
-# A5solution
+A web application developed with Angular4 and MongoDB that manages teams of employees with their projects. It also employs security features. 
+
+# A6solution
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.0.
 
