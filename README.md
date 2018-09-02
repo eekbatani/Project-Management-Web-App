@@ -1,4 +1,7 @@
+## Overview
 A web application developed with Angular4 and MongoDB that manages teams of employees with their projects. It also employs security features. 
+
+Link: https://powerful-crag-94201.herokuapp.com/
 
 # A6solution
 
